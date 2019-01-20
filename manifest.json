@@ -1,0 +1,36 @@
+{
+    "name": "__MSG_ExtensionName__",
+    "description": "__MSG_ExtensionDescription__",
+    "homepage_url": "https://github.com/rthaut/webextension-commands-i18n-bug",
+    "manifest_version": 2,
+    "version": "1.0",
+    "default_locale": "en",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "commands": {
+        "first-command": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F1"
+            },
+            "description": "Hard-coded description value in manifest.json"
+        },
+        "second-command": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F2"
+            },
+            "description": "__MSG_CommandDescription__"
+        }
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    },
+
+    "permissions": [
+        "notifications"
+    ]
+}

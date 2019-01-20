@@ -1,0 +1,23 @@
+{
+  "name": "webextension-commands-i18n-bug",
+  "version": "1.0.0",
+  "description": "Demonstrates the localization for descriptions of commands bug.",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "web-ext": "^2.9.3"
+  },
+  "scripts": {
+    "test": "web-ext run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthaut/webextension-commands-i18n-bug.git"
+  },
+  "author": "Ryan Thaut <rthaut@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/rthaut/webextension-commands-i18n-bug/issues"
+  },
+  "homepage": "https://github.com/rthaut/webextension-commands-i18n-bug#readme"
+}

@@ -1,0 +1,11 @@
+{
+    "ExtensionName": {
+        "message": "WebExtension Commands i18n Bug Demo"
+    },
+    "ExtensionDescription": {
+        "message": "Demonstrates the localization for descriptions of commands bug."
+    },
+    "CommandDescription": {
+        "message": "Internationalized (to English) command description"
+    }
+}
