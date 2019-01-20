@@ -1,0 +1,1 @@
+# webextension-commands-i18n-bug
